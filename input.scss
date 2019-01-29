@@ -1,0 +1,28 @@
+
+$colors: (
+    primary: #2B2B52,
+    text: #EAF0F1,
+    div: green,
+    font: #fff
+);
+
+$sizes: (
+    fontone: 20px,
+    fontzero: 14px,
+    fonttwo: 26px
+);
+
+$stn-height: 500px;
+body{
+  background-color: map-get($colors, primary);
+  color: map-get($colors, font);
+  font-size: map-get($sizes, fontone);
+}
+.container{
+  height: $stn-height;
+  // background-color: $div-color;
+  width: 300px;
+}
+p {
+  // color: $text-color;
+}
